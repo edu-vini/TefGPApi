@@ -16,7 +16,7 @@ class TefGPApi
         await fetch(this.url.concat('/tefgp-adm'), this.ini)
             .then(function(response){
                 if(callback){
-                    callback(response.status);
+                    callback(response);
                 }
             })
     }
@@ -26,7 +26,7 @@ class TefGPApi
         await fetch(this.url.concat('/tefgp-cancel'), this.ini)
             .then(function(response){
                 if(callback){
-                    callback(response.status);
+                    callback(response);
                 }
             })
     }
@@ -36,7 +36,7 @@ class TefGPApi
         await fetch(this.url.concat('/tefgp-conf'), this.ini)
             .then(function(response){
                 if(callback){
-                    callback(response.status);
+                    callback(response);
                 }
             })
     }
@@ -46,7 +46,7 @@ class TefGPApi
         await fetch(this.url.concat('/tefgp-desfaz'), this.ini)
             .then(function(response){
                 if(callback){
-                    callback(response.status);
+                    callback(response);
                 }
             })
     }
@@ -56,7 +56,7 @@ class TefGPApi
         await fetch(this.url.concat('/tefgp-print'), this.ini)
             .then(function(response){
                 if(callback){
-                    callback(response.status);
+                    callback(response);
                 }
             })
     }
@@ -66,7 +66,7 @@ class TefGPApi
         await fetch(this.url.concat('/tefgp-req'), this.ini)
             .then(function(response){
                 if(callback){
-                    callback(response.status);
+                    callback(response);
                 }
             })
     }
